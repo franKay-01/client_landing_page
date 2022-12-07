@@ -1,38 +1,480 @@
-.App {
-  text-align: center;
+.container {
+  @apply m-auto max-w-screen-2xl p-4
+  /* @apply m-auto max-w-screen-xl p-4 */
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner {
+  width: 100%;
+  height: 40rem;
+  background: url("./assets/background.png");
+  /* background: url("./assets/banner.jpg"); */
+  background-repeat: round;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner-button-text{
+  font-size: 18px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.banner-button{
+  padding: 20px 55px 20px 54px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.875rem;
+  background-image: none;
+  margin: 60px auto 0 0;
+  color: #ffffff !important;
+  background-color: #f93b4c !important;
+  border-radius: 15px !important;
+}
+
+.under{
+  text-decoration: underline;
+}
+
+.banner-button:hover{
+  color: #f93b4c !important;
+  background-color: #ffffff !important;
+}
+
+.banner-p{
+  width: 30rem;
+  margin-top: 2rem;
+  font-size: 20px;
+}
+
+.banner-text{
+  width: 40rem;
+  margin: 10rem 0rem 0 0;
+  font-size: 4.5rem;
+  font-weight: 400;
+  color: #f93b4c !important;
+  line-height: 1.1;
+  margin-right: 170px;
+}
+
+.banner-content-height{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 0rem 10rem;
+}
+
+.section-1{
+  width: 100%;
+  color: #ffffff;
+  background-color: #190c3a;
+  /* padding: 0rem 10rem; */
+}
+
+.section-1-text{
+  font-size: 3rem;
+  margin: 2rem 9rem;
+  letter-spacing: 1px;
+}
+
+.section-1-p{
+  width: 40rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 1rem 9rem;
+}
+
+.section-1-dos{
+  margin: 2rem 9rem;
+}
+
+.section-1-heading{
+  font-size: 2.25rem;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+.contact-address{
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  font-family: 'Poppins';
+}
+
+.contact-heading{
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.contact-newsletter{
+  font-family: 'Poppins';
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.section-2{
+  background: white !important;
+}
+
+.section-4{
+  background: white !important;
+}
+
+.section-2-top{
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin: 20px auto 0 0;
+}
+
+.section-2-heading{
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.section-2-p{
+  font-size: 1.25rem;
+  line-height: 1.8;
+  margin: 20px 0;
+  font-weight: normal;
+  font-family: 'Poppins';
+}
+
+.section-2-about-container{
+  padding: 0rem 5rem;
+}
+
+.section-3{
+  width: 100%;
+  color: #ffffff;
+  background-color: #190c3a;  
+}
+
+.red-color {
+  color: #f93b4c !important;
+}
+
+.blue-color{
+  color: #190c3a;
+}
+
+.white-color{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-section{
+  padding: 6rem 13rem;
+  width: 90rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.outline-contact{
+  outline-color: #190c3a;
+}
+
+.contact-input-bg{
+  color: white;
+  background-color: #190c3a;
+}
+
+.contact-button-bg{
+  background-color: #f93b4c !important;
+  color: white;
+}
+
+.contact-button-bg:hover{
+  background-color: #ad1421 !important;
+}
+
+@media screen and (min-width: 1024px) {
+ 
+}
+  
+  /* For Tablet View */
+@media screen and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    .banner-text{
+      width: 20rem;
+      font-size: 2.5rem;
+      font-weight: 400;
+      color: #f93b4c !important;
+      line-height: 1.1;
+    }
+
+    .section-1-text{
+      font-size: 3rem;
+      margin: 2rem 6rem;
+      letter-spacing: 1px;
+    }
+
+    .section-1-p{
+      width: 40rem;
+      font-size: 1rem;
+      font-weight: 500;
+      margin: 1rem 6rem;
+    }
+
+    .section-1-dos{
+      margin: 2rem 6rem;
+    }
+
+    .banner-content-height{
+      justify-content: center;
+      padding: 0rem 2rem;
+    }
+}
+  
+  /* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+  and (orientation: portrait) {
+    .banner-text{
+      width: 15rem;
+      font-size: 2.5rem;
+      font-weight: 400;
+      color: #f93b4c !important;
+      line-height: 1.1;
+    }
+
+    .section-1-text{
+      font-size: 1.8rem;
+      text-align: center;
+      margin: 1rem 1rem;
+      letter-spacing: 1px;
+    }
+
+    .section-1-p{
+      width: 20rem;
+      font-size: 1rem;
+      font-weight: 500;
+      margin: 1rem 1rem;
+    }
+
+    .section-1-dos{
+      margin: 1rem 1rem;
+    }
+
+    .section-2-heading {
+      font-size: 2rem;
+      line-height: 1.1;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    .section-1-heading{
+      font-size: 1.7rem;
+      margin-bottom: 0rem;
+      letter-spacing: 1px;
+    }
+
+    .section-2-about-container {
+      padding: 1rem 1rem;
+    }
+
+    .banner-content-height{
+      justify-content: center;
+      padding: 0rem 2rem;
+    }
+
+    .contact-section{
+      padding: 5rem 2rem;
+      width: 25rem;
+      margin-left: 0.1rem;
+    }
+}
+  
+  /* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+  and (orientation: landscape) {
+    .banner-text{
+      width: 15rem;
+      font-size: 2.5rem;
+      font-weight: 400;
+      color: #f93b4c !important;
+      line-height: 1.1;
+    }
+
+    .section-1-text{
+      font-size: 1.8rem;
+      text-align: center;
+      margin: 1rem 1rem;
+      letter-spacing: 1px;
+    }
+
+    .section-1-p{
+      width: 20rem;
+      font-size: 1rem;
+      font-weight: 500;
+      margin: 1rem 1rem;
+    }
+
+    .section-1-dos{
+      margin: 1rem 1rem;
+    }
+
+    .section-2-heading {
+      font-size: 2rem;
+      line-height: 1.1;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    .section-1-heading{
+      font-size: 1.7rem;
+      margin-bottom: 0rem;
+      letter-spacing: 1px;
+    }
+
+    .section-2-about-container {
+      padding: 1rem 1rem;
+    }
+
+    .banner-content-height{
+      justify-content: center;
+      padding: 0rem 2rem;
+    }
+
+    .contact-section{
+      padding: 5rem 2rem;
+      width: 25rem;
+      margin-left: 0.1rem;
+    }
+}
+  
+  /* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  .banner-text{
+    width: 15rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #f93b4c !important;
+    line-height: 1.1;
   }
-  to {
-    transform: rotate(360deg);
+
+  .section-1-text{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 1rem 1rem;
+    letter-spacing: 1px;
+  }
+
+  .section-1-p{
+    width: 20rem;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 1rem 1rem;
+  }
+
+  .section-1-dos{
+    margin: 1rem 1rem;
+  }
+
+  .section-2-heading {
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+
+  .section-1-heading{
+    font-size: 1.7rem;
+    margin-bottom: 0rem;
+    letter-spacing: 1px;
+  }
+
+  .section-2-about-container {
+    padding: 1rem 1rem;
+  }
+
+  .banner-content-height{
+    justify-content: center;
+    padding: 0rem 2rem;
+  }
+
+  .contact-section{
+    padding: 5rem 2rem;
+    width: 25rem;
+    margin-left: 0.1rem;
   }
 }
+  
+  /* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .banner-text{
+      width: 15rem;
+      font-size: 2.5rem;
+      font-weight: 400;
+      color: #f93b4c !important;
+      line-height: 1.1;
+    }
+
+    .banner-content-height{
+      justify-content: center;
+      padding: 0rem 2rem;
+    }
+}
+  
+  /* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .banner-text{
+      width: 15rem;
+      font-size: 2.5rem;
+      font-weight: 400;
+      color: #f93b4c !important;
+      line-height: 1.1;
+    }
+
+    .section-1-text{
+      font-size: 1.8rem;
+      text-align: center;
+      margin: 1rem 1rem;
+      letter-spacing: 1px;
+    }
+
+    .section-1-p{
+      width: 20rem;
+      font-size: 1rem;
+      font-weight: 500;
+      margin: 1rem 1rem;
+    }
+
+    .section-1-dos{
+      margin: 1rem 1rem;
+    }
+
+    .section-2-heading {
+      font-size: 2rem;
+      line-height: 1.1;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    .section-1-heading{
+      font-size: 1.7rem;
+      margin-bottom: 0rem;
+      letter-spacing: 1px;
+    }
+
+    .section-2-about-container {
+      padding: 1rem 1rem;
+    }
+
+    .banner-content-height{
+      justify-content: center;
+      padding: 0rem 2rem;
+    }
+
+    .contact-section{
+      padding: 5rem 2rem;
+      width: 25rem;
+      margin-left: 0.1rem;    
+    }
+}
+  

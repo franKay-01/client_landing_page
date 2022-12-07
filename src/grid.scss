@@ -1,0 +1,48 @@
+.tile-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0px 10rem;
+  
+    .tile {
+      border: none;
+      display: block;
+      box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+      height: 200px;
+      max-width: 100%;
+  
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  .tile-hide{
+    display: block;
+  }
+  
+  @media screen and (min-width: 250px)  and (max-width: 499px){
+    .tile-container {
+      width: 200px;
+      padding: 0px;
+    }
+
+    .tile-hide{
+      display: none !important;
+    }
+  }
+  
+  @media screen and (min-width: 560px) and (max-width: 720px) {
+    .tile-container {
+      width: 450px;
+      padding: 0px;
+    }
+
+    .tile-hide{
+      display: none !important;
+    }
+  }
