@@ -28,7 +28,7 @@ function App() {
     <div>
       <section className='banner'>
         <section className='grid grid-cols-1 container banner-content-height'>
-          <h1 className='text-rose-700 banner-text'>
+          <h1 className='white-color banner-text'>
             Not your ordinary meeting space
           </h1>
           <p className='white-color banner-p'>Choose one of Holiday homes locations for your meetings or small gatherings.</p>
@@ -36,7 +36,7 @@ function App() {
         </section>
        
       </section>
-      <section className='section-1 container'>
+      <section className='section-1 container bg-gradient-to-b from-black mb-12'>
         <h1 className='section-1-text'>Choose one of Holiday homes locations<span className='red-color'>.</span></h1>
         <ul class="tile-container">
           <li class="tile">
@@ -69,21 +69,7 @@ function App() {
           <li class="tile-hide tile">
             <img src={img10}/>
           </li>
-          <li class="tile-hide tile">
-            <img src={img11}/>
-          </li>
-          <li class="tile-hide tile">
-            <img src={img12}/>
-          </li>
-          <li class="tile-hide tile">
-            <img src={img13}/>
-          </li>
-          <li class="tile-hide tile">
-            <img src={img14}/>
-          </li>
-          <li class="tile-hide tile">
-            <img src={img15}/>
-          </li>
+          
         </ul>
         {/* <div className='spiral-body'>
           <div class="scope">
@@ -270,7 +256,7 @@ function App() {
           </div>
         </div>
       </section> */}
-      <section className='contact-section'>
+      <section className='contact-section bg-gradient-to-t from-black'>
         <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 bg-white content-center'>
           <div className='p-8'>
             <p className='contact-heading'>Contacts</p>
@@ -279,17 +265,18 @@ function App() {
             <br></br>
             <div className='flex flex-row'>
               <img className='w-8 h-8' src={emailImg} />
-              <a href='mailto:Holydayhomes21@gmail.com' className='red-color ml-2 contact-address underline cursor-pointer' >Holydayhomes21@gmail.com</a>
+              <a href='mailto:Holydayhomes21@gmail.com' className='red-color ml-2 underline cursor-pointer' >Holydayhomes21@gmail.com</a>
 
             </div>
           </div>
           <div className='p-8'>
-            <p className='contact-heading blue-color'>Sign up for the newsletter</p>
-            <p className='contact-newsletter'>Be the first to know about new spaces.</p>
+            <p className='contact-heading blue-color'>Be the first to know about new spaces.</p>
+            <p className='contact-newsletter'>Sign up here</p>
             <div class=" w-72 md:w-80 lg:w-96">
               <div class="relative flex items-center">
-                <input id="11" type="text" placeholder='Enter you email here...' class="peer relative h-12 w-full rounded-md contact-input-bg pl-2 pr-4 font-normal outline-contact" />
+                <input id="11" type="text" placeholder='Enter you email here...' class="peer relative h-12 w-full rounded-md contact-input-bg pl-2 pr-4 placeholder-white font-normal outline-contact" />
                 <button class="absolute right-2 h-8 w-16 rounded-md bg-blue-200 text-xs font-semibold text-white contact-button-bg">Send</button>
+                
               </div>
             </div>
           </div>
