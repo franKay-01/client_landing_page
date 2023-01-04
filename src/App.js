@@ -54,7 +54,7 @@ function App() {
           <li class="tile">
             <img src={img5}/>
           </li>
-          <li class="tile-hide tile">
+          {/* <li class="tile-hide tile">
             <img src={img6}/>
           </li>
           <li class="tile-hide tile">
@@ -68,7 +68,7 @@ function App() {
           </li>
           <li class="tile-hide tile">
             <img src={img10}/>
-          </li>
+          </li> */}
           
         </ul>
         {/* <div className='spiral-body'>
