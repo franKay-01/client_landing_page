@@ -14,7 +14,7 @@ import img7 from './assets/img_7.jpg';
 import img8 from './assets/img_8.jpg';
 import img9 from './assets/img_9.jpg';
 import img10 from './assets/img_10.jpg';
-import img11 from './assets/img_11.jpg';
+import sendEmailImg from './assets/email_sent.gif';
 import img12 from './assets/img_12.jpg';
 import img13 from './assets/img_13.jpg';
 import img14 from './assets/img_14.jpg';
@@ -37,7 +37,7 @@ function App() {
        
       </section>
       <section className='section-1 container bg-gradient-to-b from-black mb-12'>
-        <h1 className='section-1-text'>Choose one of Holiday homes locations<span className='red-color'>.</span></h1>
+        <h1 className='section-1-text'>Choose one of Holiday homes locations.</h1>
         <ul class="tile-container">
           <li class="tile">
             <img src={img1}/>
@@ -151,7 +151,7 @@ function App() {
             <p className='section-2-top'>ABOUT<span className='red-color'>.</span></p>
             <p className='section-2-heading'>Holydayhomes' Identity</p>
             <p className='section-2-p'>
-            Holydayhomes was Founded in 2018, <br></br>We are a small business black owned business focused on serving our community by providing a meeting space that is not your usual office environment.
+            Holydayhomes was Founded in 2018,<br></br>We are a small business focused on serving our community by providing a meeting space that is not your usual office environment.
             </p>
             <hr></hr>
             <div className='flex flex-row mt-8'>
@@ -271,14 +271,14 @@ function App() {
           </div>
           <div className='p-8'>
             <p className='contact-heading blue-color'>Be the first to know about new spaces.</p>
-            <p className='contact-newsletter'>Sign up here</p>
-            <div class=" w-72 md:w-80 lg:w-96">
+            <p className='contact-newsletter'>Send us an email</p>
+            <img className='email-gif' src={sendEmailImg}/>
+            {/* <div class=" w-72 md:w-80 lg:w-96">
               <div class="relative flex items-center">
                 <input id="11" type="text" placeholder='Enter you email here...' class="peer relative h-12 w-full rounded-md contact-input-bg pl-2 pr-4 placeholder-white font-normal outline-contact" />
-                <button class="absolute right-2 h-8 w-16 rounded-md bg-blue-200 text-xs font-semibold text-white contact-button-bg">Send</button>
-                
+                <button class="absolute right-2 h-8 w-16 rounded-md text-xs font-semibold contact-button-bg">Send</button>   
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 p-8'>
