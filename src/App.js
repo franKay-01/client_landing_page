@@ -54,93 +54,9 @@ function App() {
           <li class="tile">
             <img src={img5}/>
           </li>
-          {/* <li class="tile-hide tile">
-            <img src={img6}/>
-          </li>
-          <li class="tile-hide tile">
-            <img src={img7}/>
-          </li>
-          <li class="tile-hide tile">
-            <img src={img8}/>
-          </li>
-          <li class="tile-hide tile">
-            <img src={img9}/>
-          </li>
-          <li class="tile-hide tile">
-            <img src={img10}/>
-          </li> */}
           
         </ul>
-        {/* <div className='spiral-body'>
-          <div class="scope">
-            <span style={{ '--i':1 }}><img src="https://i.postimg.cc/BQcRL38F/pexels-photo-761963.jpg" alt="not found"/></span>
-            <span style={{ '--i':2 }}><img src="https://i.postimg.cc/1RWVB11x/pexels-photo-941693.jpg" alt="not found"/></span>
-            <span style={{ '--i':3 }}><img src="https://i.postimg.cc/CMfHRKfP/woman-2003647-960-720.jpg" alt="not found"/></span>
-            <span style={{ '--i':4 }}><img src="https://i.postimg.cc/T1rDCpVT/beautiful-1274056-960-720.jpg" alt="not found"/></span>
-            <span style={{ '--i':5 }}><img src="https://i.postimg.cc/SNf99YQr/woman-1807533-960-720.jpg" alt="not found"/></span>
-            <span style={{ '--i':6 }}><img src="https://i.postimg.cc/2SHBcpZL/pexels-photo-4664520.jpg" alt="not found"/></span>
-            <span style={{ '--i':7 }}><img src="https://i.postimg.cc/CxBzNcjw/Opera-Snapshot-2020-07-03-162022-www-freepik-com.png" alt="not found"/></span>
-            <span style={{ '--i':8 }}><img src="https://i.postimg.cc/0QckxSpt/Opera-Snapshot-2020-07-03-161422-www-freepik-com.png" alt="not found"/></span>
-          </div>
-        </div> */}
-        {/* <p className='section-1-p'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-        </p> */}
-        {/* <div class="container-grid">
-          <div class="gallery">
-
-            <div class="gallery-item">
-              <img class="gallery-image w-52 h-52" src={img1} alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer"/>
-            </div>
-
-            <div class="gallery-item">
-              <img class="gallery-image" src={img2} alt="sunset behind San Francisco city skyline"/>
-            </div>
-
-            <div class="gallery-item">
-              <img class="gallery-image" src={img3} alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan"/>
-            </div>
-
-            <div class="gallery-item">
-              <img class="gallery-image" src={img4} alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night"/>
-            </div>
-
-            <div class="gallery-item">
-              <img class="gallery-image" src={img5} alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA"/>
-            </div>
-
-            <div class="gallery-item">
-              <img class="gallery-image" src={img6} alt="man wearing a black jacket, white shirt, blue jeans, and brown boots, playing a white electric guitar while sitting on an amp"/>
-            </div>
-
-          </div>
-        </div> */}
-        {/* <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 section-1-dos'>
-          <div className='mb-8'>
-            <p className='section-1-heading'>Strategy<span className='red-color'>.</span></p>
-            <div className='flex flex-col space-y-9'>
-              <p>Analytics and Research</p>
-              <p>Interactive Workshops</p>
-              <p>Brand Strategy</p>
-            </div>
-          </div>
-          <div className='mb-8'>
-            <p className='section-1-heading'>Strategy<span className='red-color'>.</span></p>
-            <div className='flex flex-col space-y-9'>
-              <p>Analytics and Research</p>
-              <p>Interactive Workshops</p>
-              <p>Brand Strategy</p>
-            </div>
-          </div>
-          <div className='mb-8'>
-            <p className='section-1-heading'>Strategy<span className='red-color'>.</span></p>
-            <div className='flex flex-col space-y-9'>
-              <p>Analytics and Research</p>
-              <p>Interactive Workshops</p>
-              <p>Brand Strategy</p>
-            </div>
-          </div>
-        </div> */}
+       
       </section>
       <section className='section-2 container'>
         <div className='grid grid-cols-1 lg:grid-cols-2 lg:p-32 md:p-32'>
@@ -149,9 +65,9 @@ function App() {
           </div>
           <div className='flex flex-col section-2-about-container'>
             <p className='section-2-top'>ABOUT<span className='red-color'>.</span></p>
-            <p className='section-2-heading'>Holydayhomes' Identity</p>
+            <p className='section-2-heading'>HolydayHomes' Identity</p>
             <p className='section-2-p'>
-            Holydayhomes was Founded in 2018,<br></br>We are a small business focused on serving our community by providing a meeting space that is not your usual office environment.
+            HolydayHomes was Founded in 2018,<br></br>We are a small business focused on serving our community by providing a meeting space that is not your usual office environment.
             </p>
             <hr></hr>
             <div className='flex flex-row mt-8'>
@@ -164,98 +80,6 @@ function App() {
           </div>
         </div>
       </section>
-      {/* <section className='section-3 container'>
-        <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 lg:p-24 md:p-24'>
-          <div className='mb-8'>
-            <p className='section-1-heading'>Strategy<span className='red-color'>.</span></p>
-            <div className='flex flex-col space-y-9'>
-              <p>Analytics and Research</p>
-            </div>
-          </div>
-          <div className='mb-8'>
-            <p className='section-1-heading'>Strategy<span className='red-color'>.</span></p>
-            <div className='flex flex-col space-y-9'>
-              <p>Analytics and Research</p>
-            </div>
-          </div>
-          <div className='mb-8'>
-            <p className='section-1-heading'>Strategy<span className='red-color'>.</span></p>
-            <div className='flex flex-col space-y-9'>
-              <p>Analytics and Research</p>
-            </div>
-          </div>
-          <div className='mb-8'>
-            <p className='section-1-heading'>Strategy<span className='red-color'>.</span></p>
-            <div className='flex flex-col space-y-9'>
-              <p>Analytics and Research</p>
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/* <section className='section-4 container'>
-        <div className='flex flex-col lg:p-8 md:p-8'>
-          <div className='flex flex-col justify-center'>
-            <p className='section-2-heading text-center'>Web Platforms and Industries</p>
-            <p className='text-center'>With a lot of powerful features, we guarantee simplicity and clarity.</p>
-          </div>
-          <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 lg:p-24 md:p-24'>
-            <div className='flex flex-row'>
-              <img className='w-12 h-12' src={quoteImg}/>
-              <span className='flex flex-col ml-8'>
-                <p>Massa tincidunt nunc pulvinar sapien. Urna et pharetra pharetra massa massa ultricies mi quis. Sem nulla pharetra diam sit amet nisl suscipit</p>
-                <p className='mt-2'>- Mattie Smith</p>
-              </span>
-            </div>
-            <div className='flex flex-row'>
-              <img className='w-12 h-12' src={quoteImg}/>
-              <span className='flex flex-col ml-8'>
-                <p>Massa tincidunt nunc pulvinar sapien. Urna et pharetra pharetra massa massa ultricies mi quis. Sem nulla pharetra diam sit amet nisl suscipit</p>
-                <p className='mt-2'>- Mattie Smith</p>
-              </span>
-            </div>
-            <div className='flex flex-row mt-8'>
-              <img className='w-12 h-12' src={quoteImg}/>
-              <span className='flex flex-col ml-8'>
-                <p>I learned a long time ago that trying to micromanage the perfect vacation is always a disaster. That leads to terrible times</p>
-                <p className='mt-2'>- Anthony Bourdain</p>
-              </span>
-            </div>
-            <div className='flex flex-row mt-8'>
-              <img className='w-12 h-12' src={quoteImg}/>
-              <span className='flex flex-col ml-8'>
-                <p>Massa tincidunt nunc pulvinar sapien. Urna et pharetra pharetra massa massa ultricies mi quis. Sem nulla pharetra diam sit amet nisl suscipit</p>
-                <p className='mt-2'>- Mattie Smith</p>
-              </span>
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/* <section className='container'>
-        <div className='flex flex-col justify-center'>
-          <p className='section-2-heading text-center white-color'>Our Work</p>
-          <p className='text-center white-color'>With a lot of powerful features, we guarantee simplicity and clarity.</p>
-        </div>
-        <div className='grid grid-cols-1 lg:grid-cols-2 lg:p-12 md:p-12'>
-          <div className='flex flex-col section-2-about-container'>
-            <p className='section-2-top red-color'>ABOUT COMPANY</p>
-            <p className='section-2-heading red-color'>Corporate Identity</p>
-            <p className='section-2-p white-color'>
-              Nisi lacus sed viverra tellus in. Nunc aliquet bibendum enim facilisis. Consequat semper viverra nam libero justo laoreet sit amet. Morbi blandit cursus risus at ultrices mi tempus imperdiet nulla.
-            </p>
-            <hr></hr>
-            <div className='flex flex-row mt-8'>
-              <img className='w-12 h-12' src={quoteImg}/>
-              <span className='flex flex-col ml-8'>
-                <p className='white-color'>Massa tincidunt nunc pulvinar sapien. Urna et pharetra pharetra massa massa ultricies mi quis. Sem nulla pharetra diam sit amet nisl suscipit</p>
-                <p className='mt-2 white-color'>- Mattie Smith</p>
-              </span>
-            </div>
-          </div>
-          <div>
-            <img src={ourWork}/>
-          </div>
-        </div>
-      </section> */}
       <section className='contact-section bg-gradient-to-t from-black'>
         <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 bg-white content-center'>
           <div className='p-8'>
@@ -273,12 +97,6 @@ function App() {
             <p className='contact-heading blue-color'>Be the first to know about new spaces.</p>
             <p className='contact-newsletter'>Send us an email</p>
             <img className='email-gif' src={sendEmailImg}/>
-            {/* <div class=" w-72 md:w-80 lg:w-96">
-              <div class="relative flex items-center">
-                <input id="11" type="text" placeholder='Enter you email here...' class="peer relative h-12 w-full rounded-md contact-input-bg pl-2 pr-4 placeholder-white font-normal outline-contact" />
-                <button class="absolute right-2 h-8 w-16 rounded-md text-xs font-semibold contact-button-bg">Send</button>   
-              </div>
-            </div> */}
           </div>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 p-8'>
