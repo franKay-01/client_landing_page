@@ -4,21 +4,12 @@ import './spiral.css'
 import aboutImg from './assets/about.jpeg';
 import quoteImg from './assets/quote.png';
 import emailImg from './assets/mail.png';
+
 import img1 from './assets/img_1.jpeg';
-import img2 from './assets/img_2.jpeg';
-import img3 from './assets/img_3.jpeg';
-import img4 from './assets/img_4.jpeg';
-import img5 from './assets/img_5.jpg';
-import img6 from './assets/img_6.jpg';
-import img7 from './assets/img_7.jpg';
-import img8 from './assets/img_8.jpg';
-import img9 from './assets/img_9.jpg';
-import img10 from './assets/img_10.jpg';
+import img2 from './assets/img_2.jpg';
+
 import sendEmailImg from './assets/email_sent.gif';
-import img12 from './assets/img_12.jpg';
-import img13 from './assets/img_13.jpg';
-import img14 from './assets/img_14.jpg';
-import img15 from './assets/img_15.jpg';
+
 import home from './assets/home.jpg'
 import location from './assets/location.png'
 import phone from './assets/phone.png'
@@ -32,7 +23,14 @@ function App() {
             Not Your Ordinary Meeting Space
           </h1>
           <p className='white-color banner-p'>Choose one of Holiday homes locations for your meetings or small gatherings.</p>
-          <a target={'blank'} href="https://www.peerspace.com/pages/listings/6359479cab68cd000ef2124c?utm_source=copy_link&utm_campaign=listing_sharing" class="banner-button"><span className='banner-button-text'>Book Now !!</span></a>
+          {/* <a target={'blank'} href="https://www.peerspace.com/pages/listings/6359479cab68cd000ef2124c?utm_source=copy_link&utm_campaign=listing_sharing" class="banner-button"><span className='banner-button-text'>Book Now !!</span></a> */}
+          <div className='flex flex-col mt-12'>
+            <p className='white-color contact-address contact-phone'>Contact for Booking</p>
+            <div className='flex flex-row'>
+              <img className='w-5 h-6' src={phone} />
+              <a href="tel:240-310-9795" className='white-color contact-address under ml-4'>240-310-9795</a>
+            </div>
+          </div>
         </section>
        
       </section>
@@ -44,15 +42,6 @@ function App() {
           </li>
           <li class="tile">
             <img src={img2}/>
-          </li>
-          <li class="tile">
-            <img src={img3}/>
-          </li>
-          <li class="tile">
-            <img src={img4}/>
-          </li>
-          <li class="tile">
-            <img src={img5}/>
           </li>
           
         </ul>
@@ -67,16 +56,17 @@ function App() {
             <p className='section-2-top'>ABOUT<span className='red-color'>.</span></p>
             <p className='section-2-heading'>HolydayHomes' Identity</p>
             <p className='section-2-p'>
-            HolydayHomes was Founded in 2018,<br></br>We are a small business focused on serving our community by providing a meeting space that is not your usual office environment.
+              HolydayHomes was Founded in 2021,<br></br>
+              We are a business focused on providing travel professionals with short term rental accommodations
             </p>
             <hr></hr>
-            <div className='flex flex-row mt-8'>
+            {/* <div className='flex flex-row mt-8'>
               <img className='w-12 h-12' src={quoteImg}/>
               <span className='flex flex-col ml-8'>
                 <p>I learned a long time ago that trying to micromanage the perfect vacation is always a disaster. That leads to terrible times<span className='red-color'>.</span></p>
                 <p className='mt-2'>- Anthony Bourdain</p>
               </span>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

@@ -99,6 +99,10 @@
   letter-spacing: 1px;
 }
 
+.contact-phone{
+  font-size: 1.55rem !important;
+}
+
 .contact-address{
   font-size: 1.25rem;
   font-weight: 500;
