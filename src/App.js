@@ -20,9 +20,11 @@ function App() {
       <section className='banner'>
         <section className='grid grid-cols-1 container banner-content-height'>
           <h1 className='white-color banner-text'>
-            Not Your Ordinary Meeting Space
+          Your home away from home.
           </h1>
-          <p className='white-color banner-p'>Choose one of Holiday homes locations for your meetings or small gatherings.</p>
+          <p className='white-color banner-p'>
+            Choose one of our locations for your temporary stay.
+          </p>
           {/* <a target={'blank'} href="https://www.peerspace.com/pages/listings/6359479cab68cd000ef2124c?utm_source=copy_link&utm_campaign=listing_sharing" class="banner-button"><span className='banner-button-text'>Book Now !!</span></a> */}
           <div className='flex flex-col mt-12'>
             <p className='white-color contact-address contact-phone'>Contact for Booking</p>
